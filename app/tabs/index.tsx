@@ -8,7 +8,7 @@ const ScreenPrincipal = () => {
   return (
     <><View style={GlobalStyles.containerCentrado}>
       <Text style={[GlobalStyles.titulo,{marginTop:100}]}>Desconectarse</Text>
-    <Button_custom nombre="Sign OUT" Estilo_Texto={{ fontWeight: 'bold', fontSize: 25}} Estilo_Caja={[{backgroundColor: 'green',marginBottom:200,marginTop:200}]} onPress={() => { router.push('/login') } }>
+    <Button_custom nombre="Sign OUT" Estilo_Texto={{ fontWeight: 'bold', fontSize: 20}} Estilo_Caja={[{backgroundColor: 'green',marginBottom:170,marginTop:200}]} onPress={() => { router.push('/login') } }>
       </Button_custom>
       </View>
       </>
